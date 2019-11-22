@@ -4,29 +4,39 @@
     <meta charset="utf-8">
     <title>Contacto</title>
   </head>
-  <body background="imagenesdulces\imagenfondo.jpg">
+  <body background="imagenesdulces\tortitasfruta.jpg">
     <header align="center">
-        <img src="logo\trans.png" alt="logo" class="logo">
+        <img src="logo\logo.png" alt="logo" class="logo">
     </header>
-    <div align="center" id="after_submit"></div>
-    <form align="center" id="contacto_form" action="#" method="POST" enctype="multipart/form-data">
-      <div align="center" class="row">
-        <label class="required" for="nombre">Nombre:</label><br />
-        <input id="nombre" class="input" name="nombre" type="text" value="" size="30" /><br />
-        <span id="nombre_validation" class="error_message"></span>
-      </div>
-      <div align="center" class="row">
-        <label class="required" for="email">Email:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-        <span id="email_validation" class="error_message"></span>
-      </div>
-      <div align="center" class="row">
-        <label class="required" for="mensaje">Mensaje:</label><br />
-        <textarea id="mensaje" class="input" name="mensaje" rows="7" cols="30"></textarea><br />
-        <span id="mensaje_validation" class="error_message"></span>
-      </div>
-        <input align="center" id="submit_button" type="submit" value="enviar email" />
-    </form>
+    <body>
+    <div align="center" id="after_submit">
+    <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Formulario de reservas y contacto </font></font></h3>
+    <form method="post" enctype="multipart/form-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Nombre </font></font><br>
+      <input type="text" name="nombre" value="" size="20" maxlength="30">
+      <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Apellidos </font></font><br>
+      <input type="text" name="apellidos" value="" size="20" maxlength="30">
+      <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Contraseña </font></font><br>
+      <input type="password" name="contrasena" value="" maxlength="10">
+      <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      email </font></font><br>
+      <input type="text" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="mail" placeholder="email@ejemplo.com" required="">
+      <br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+      Sexo </font></font><br>
+      <input type="radio" name="sexo" value="hombre" checked="checked"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Hombre </font></font><br>
+      <input type="radio" name="sexo" value="mujer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mujer
+       </font></font><br><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+         <label class="required" for="mensaje">Mensaje:</label><br />
+         <textarea id="mensaje" class="input" name="mensaje" rows="7" cols="30"></textarea><br />
+         <span id="mensaje_validation" class="error_message"></span>
+      <input name="suscribir" type="checkbox" value="suscribir" checked="checked"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Suscribirme al boletín de novedades
+       </font></font><br><br>
+      <font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><input type="submit" name="enviar" value="Enviar email"></font></font>
+      <input type="reset" name="limpiar" value="Borrar los datos introducidos">
+    </div>
+
     <div class="block" align="center">
       <p><font face="verdana" color="f1b10e">Siguenos en</font></p>
       <footer >
@@ -34,7 +44,7 @@
         <a href="https://twitter.com/?lang=es"><img src="./logo/logotwitter.png" alt="facebook" class="logofoot1" width="25" height="25"></a>
         <a href="https://www.instagram.com/?hl=es"><img src="./logo/logoinsta.png" alt="facebook" class="logofoot0" width="25" height="25"></a>
       </footer>
-      <a href="./pastelerilamadriguera/index.html" ="#volver_inicio">Volver a página principal</a>
+      <a href="./index.html">Volver a página principal</a>
     </div>
   </body>
 </html>
