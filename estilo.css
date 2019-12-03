@@ -105,39 +105,40 @@ li a:hover {
   background-color: #111;
 }
 /*imagen*/
+.logo0{
+  width: 3%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo1 {
+    width: 3%;
+    display: block;
+    margin-left: 43%;
+    margin-top: -3%
+  }
+.logo2{
+width: 3%;
+display: block;
+margin-top: -3%;
+margin-left: 54%;
+}
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 205px;
 }
-.posit1{
+.cuadro1{
   width: 63%;
   margin-top: -38%;
 }
-.posit2{
+.cuadro2{
   width: 63%;
 }
-.logofoot0{
-  width: 3%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.logofoot1 {
-    width: 3%;
-    display: block;
-    margin-left: 43%;
-    margin-top: -3%
-  }
-.logofoot2{
-width: 3%;
-display: block;
-margin-top: -3%;
-margin-left: 54%;
-}
+
 /*tablon posit*/
-.posit01 {
+.cuadro01 {
   position: relative;
     top: 38px;;
     left: 33px;
