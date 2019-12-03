@@ -11,7 +11,7 @@ header {
 	background:#ffffff;
 	padding:20px 0px
 }
-#contenedor{
+#logo{
   width: 100%;
   margin: auto;
   margin-top: 30px;
@@ -137,7 +137,7 @@ margin-left: 54%;
   width: 63%;
 }
 
-/*tablon posit*/
+/*tablon cuadro*/
 .cuadro01 {
   position: relative;
     top: 38px;;
